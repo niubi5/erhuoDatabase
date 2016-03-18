@@ -1,0 +1,15 @@
+android仓库: https://github.com/niubi5/erhuo.git
+web端仓库:   https://github.com/niubi5/erhuoWeb.git
+数据库仓库:  https://github.com/niubi5/erhuoDatabase.git
+
+
+##################git操作步骤#####################
+1>修改项目后先提交到本地，确认项目名左边的 ‘<’符号消失；
+2>右键项目名->pull，若有冲突，根据冲突图标修改代码解决冲突，再把修改后的冲突文件
+  右键->add to index,以此类推解决所有冲突；
+3>解决所有冲突后，重复步骤1->2->3,直至pull拉取提示内容为‘everything up to date’,并且项目已提交至本地(commit)且无冲突
+4>项目右键，push到远程(commit and push)
+
+#################################################
+
+要按步骤来，先commit->再pull->解决冲突->commit->再次pull(其他人可能再次提交)->若无最新修改->commit and push
