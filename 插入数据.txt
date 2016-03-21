@@ -7,11 +7,15 @@ insert into users(identity,pwd,photo,name,sex,jifen,invCode)
 	     ('15333334445','1234','','程新根','1','10','1005');
 
 insert into types(name,url)
-    values('书籍文体',''),
-          ('个护化妆',''),
-          ('手机电脑',''),
-          ('相机数码',''),
-          ('母婴玩具','');
+    values('其他',''),
+          ('苹果手机',''),
+          ('平板电脑',''),
+          ('笔记本',''),
+          ('小米',''),
+	  ('数码3C',''),
+	  ('书籍文体',''),
+	  ('服装鞋包',''),
+	  ('美容美体','');	
 
 insert into markets(name,url,brief,usercount,goodscount)
       values('爱书人的圈子','http://10.201.1.6:8080/marketimage/marketbook1.png','我是闲置图书，我已经厌倦被束之高阁，我在等着你',0,0),
