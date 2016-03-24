@@ -148,7 +148,9 @@ create table address(
 	userid int ,
 	name varchar(20) not null,
 	phone varchar(20) not null,
-	address varchar(200) not null
+	address varchar(200) not null,
+	isdefault varchar(8) ,
+	foreign key(pgoodid) references prizegoods(id) on delete cascade
 );
 
 create table collections(
